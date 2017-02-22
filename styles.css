@@ -1,0 +1,188 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#titleArea {
+    top: 0;
+    left: 0;
+    background-color: white;
+    position: fixed;
+    border-bottom: 1px solid lightgrey;
+    box-shadow: 0 5px 25px grey;
+    width:100%;
+    padding: 20px 0;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.main {
+    margin-top: 180px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    color: green;
+}
+
+pre {
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+}
+
+.table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    box-shadow: 0px 4px 15px -3px gray;
+}
+
+.row {
+    display: table-row;
+}
+
+.line-number {
+    min-width: 5%;
+    display: table-cell;
+    background-color: #D3D3D3;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.code-block {
+    width: 95%;
+    display: table-cell;
+    background-color: #fcf4f4;
+    padding: 20px;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+#clock {
+    vertical-align: middle;
+}
+
+p {
+    margin: 0;
+}
+
+.text, .note p, .caution p, .funfact p, li {
+    line-height: 1.8em;
+    font-size:18px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.note, .caution, .funfact {
+    border-left: 5px solid green;
+    background-color: #c0f7d0;
+    padding: 15px 20px;
+    margin: 40px 0;
+}
+
+.caution {
+    border-left: 5px solid yellow;
+    background-color: lightyellow;
+}
+
+.funfact {
+    border-left: 5px solid orange;
+    background-color: rgba(255, 185, 20, .7);
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.tag {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 4px;
+    margin: 0 1px;
+}
+
+.code {
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0 3px;
+}
+
+
+.js-keyword-row {
+    display: table-row;
+    background-color: silver;
+}
+
+.alternate {
+    background-color: lightgrey;
+}
+
+.js-keyword {
+    width: 20%;
+    display: table-cell;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+
+.js-keyword-description {
+    width: 95%;
+    display: table-cell;
+    padding: 20px;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.keyword-table {
+    border: 2px solid silver;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+button {
+    display: block;
+    padding: 10px 30px;
+    background-color: green;
+    border: 3px solid green;
+    border-radius: 3px;
+    color: white;
+    transition-duration: .5s;
+    margin: 15px 0;
+    font-size: large;
+}
+
+button:hover {
+    background-color: white;
+    border-color: green;
+    color: green;
+    cursor: pointer;
+}
+
+.logos {
+    float: right;
+    margin-top: -80px;
+    opacity: .8;
+}
