@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>The Complete JavaScript Tutorial by W3Schools</title>
+    <title>An Intro to JavaScript - Tutorial by Govind Rai & W3Schools</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto: 400,700|Ubuntu+Mono" rel="stylesheet">
     <link href="styles.css" type="text/css" rel="stylesheet">
 </head>
@@ -13,7 +13,7 @@
 
     <div id="titleArea">
         <div class="content">
-            <h1>The Complete JavaScript Tutorial</h1>
+            <h1>An In-Depth Introduction to JavaScript </h1>
             <sub>Examples from W3Schools & CSS-Tricks | Website Design by Govind Rai</sub>
         </div>
     </div>
